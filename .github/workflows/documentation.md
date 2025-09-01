@@ -11,7 +11,7 @@
 ##  Conceptual Learning
 
 ### **New Concepts I Discovered**
-- **[getline]:** used fo input. termimates at endl instead of whitespace
+- **[getline]:** used for input. termimates at endl instead of whitespace
 
 ### **How I Applied These Concepts**
 - used getline for text input from user
