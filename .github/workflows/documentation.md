@@ -1,38 +1,17 @@
 ## Problem Understanding
-**What the problem is asking:** [Explain in your own words]
+**What the problem is asking:** [The problem asks to encrypt and decrypt texts using the concepts of Caesar Cipher(for Level 1)]
 
-**Key concepts involved:** [List the main ideas/algorithms needed]
+**Key concepts involved:** [1) usage of '%'(modulo)]
+[2) ASCII Table and dealing with characters]
 
-**My approach:** [High-level strategy you chose]
+**My approach:** [Asked input for text and shift. Then, normalized the shift to be under 26. Then, created conditions for capital and small letters and wrapped the final char around using modulo then printed it.]
 
 ---
 
 ##  Conceptual Learning
 
 ### **New Concepts I Discovered**
-- **[Concept Name]:** [What it is and why it's useful]
-- **[Another Concept]:** [Brief explanation and application]
+- **[getline]:** [used fo input. termimates at endl instead of whitespace]
 
 ### **How I Applied These Concepts**
-[Explain how you used the concepts to solve the problem]
-
-### **Real-World Connections**
-[Where might you see this problem or similar concepts in real applications?]
-
-
-
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+[used getline for text input from user]
